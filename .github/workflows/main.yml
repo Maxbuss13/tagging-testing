@@ -11,4 +11,5 @@ jobs:
     - name: Bump version and push tag
       uses: anothrNick/github-tag-action@master
       env:
-        GITHUB_TOKEN: ${{474cc06c13ff8608641918d4aebf7738cef94646}}
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        REPO_OWNER: Maxbuss13
